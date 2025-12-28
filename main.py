@@ -18,6 +18,7 @@ import random
 import time
 
 try:
+     os.system('clear')
      import requests
      from bs4 import BeautifulSoup
      from colorama import Fore
@@ -120,6 +121,7 @@ while True:
 
 if __name__ == "__main__":
     main()
+
 
 
 
