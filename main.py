@@ -85,7 +85,7 @@ print(f"""
 
 def check_():
     with sync_playwright() as playwright:
-            browser = playwright.firefox.launch(headless=True)
+            browser = playwright.chromium.launch(headless=True)
             page = browser.new_page()
             page.goto("https://www.instagram.com/accounts/emailsignup/")
             time.sleep(1)
@@ -120,4 +120,5 @@ while True:
 
 if __name__ == "__main__":
     main()
+
 
