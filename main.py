@@ -63,10 +63,10 @@ print(f"{RED}[0] {MAGENTA}AESTHETIC USERNAME (lower)\n{RED}[1] {MAGENTA}ANY USER
 n = input()
 if n == "0":
      alphabets = a1
-     clear()
+     os.system('clear')
 elif n == "1":
      alphabets = a2
-     clear()
+     os.system('clear')
 else:
      alphabets = a2
      print("using default username type(any username)")
@@ -120,6 +120,7 @@ while True:
 
 if __name__ == "__main__":
     main()
+
 
 
 
