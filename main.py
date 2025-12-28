@@ -50,7 +50,7 @@ print(f"""{RED}
 """)
 enter = input(f"{GREEN}Press any key to continue...")
 if enter == "":
-     clear()
+     os.system('clear')
 else:
      exit()
 
@@ -120,5 +120,6 @@ while True:
 
 if __name__ == "__main__":
     main()
+
 
 
