@@ -12,3 +12,7 @@ This tool doesn't work on termux, it only works on linux, macos, windows
 # NOTICE
 This tool is made only for educational purpose only.
 > This tool crashes due to long run, so I'll fix it in version 0.0.2, and I'll also try to boost up the speed.
+
+# Requirements
+## Make sure python / python3 have been installed
+## Use oython3 if python doesn't work on your system
