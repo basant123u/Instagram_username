@@ -1,8 +1,6 @@
 """This tool is coded by Basant(alphaxworks) you are free to use or copy the code, but please ensure the proper credit is given to the orginal author.
 Remember taking other's credit doesn't make you a good programmer.
 
-INSTAGRAM : PSYCHOBASANT
-TELEGRAM : X00III
 """
 
 import os
